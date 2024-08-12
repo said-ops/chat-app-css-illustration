@@ -25,3 +25,27 @@
 *::before{
     box-sizing: border-box;
 }
+/*================================*/
+body{
+    height: 1040px;
+}
+main{
+    display: flex;
+    height: 100%;
+}
+.left{
+    width: 527px;
+    background: var(--gradient);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* border-bottom-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    transform: translate(-6.5rem, -6rem); */
+}
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
