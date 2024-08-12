@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'main';
+    src: url(./font/Rubik-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400 500 700;
+}
+:root{
+    /*====primary======*/
+    --sub-heading-color:hsl(276, 100%, 81%);
+    --left-chat-color:hsl(276, 55%, 52%);
+    --right-chat-color:hsl(271, 15%, 43%);
+    --placeholder-color:hsl(206, 6%, 79%);
+    --main-heading-color:hsl(271, 36%, 24%);
+    --paragraph-color:hsl(270, 7%, 64%);
+    --main-fz:16px;
+    /*======secondary=====*/
+    --white:hsl(0, 0%, 100%);
+    --app-background:hsl(270, 20%, 96%);
+    --submit-button-color:hsl(271, 36%, 24%);
+    --radio-outline:hsl(289, 100%, 72%);
+    /*=======gradient=========*/
+    --gradient:linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
