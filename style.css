@@ -344,33 +344,33 @@ main{
   }
   .left-chat:nth-child(1) {
     animation: fadeInLeft 1s ease forwards ;
-    animation-delay: 2.5s;
+    animation-delay: 0.5s;
   }
   .left-chat:nth-child(2) {
     animation: fadeInLeft 1s ease forwards ;
-    animation-delay: 3.5s;
+    animation-delay: 1.5s;
   }
   .dog-pics{
     animation: fadeInRight 1s ease forwards;
-    animation-delay:5.5s ;
+    animation-delay:3.5s ;
   }
   div.app-body > div:nth-child(4){
     animation: fadeInRight 1s ease forwards;
-    animation-delay:6.5s ;
+    animation-delay:4.5s ;
   }
   div.app-body > div:nth-child(5){
     animation: fadeInRight 1s ease forwards;
-    animation-delay:8.5s ;
+    animation-delay:5.5s ;
   }
   div.app-body > div:nth-child(6) {
     animation: fadeInLeft 1s ease forwards ;
-    animation-delay: 9.5s;
+    animation-delay: 7.5s;
   }
   div.app-body > div:nth-child(7) {
     animation: fadeInLeft 1s ease forwards ;
-    animation-delay: 11.5s;
+    animation-delay: 9.5s;
   }
   div.app-body > div:nth-child(8) {
     animation: fadeInLeft 1s ease forwards ;
-    animation-delay: 11.5s;
+    animation-delay: 9.5s;
   }
