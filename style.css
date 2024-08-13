@@ -25,6 +25,7 @@
 *::after,
 *::before{
     box-sizing: border-box;
+    transition: all 0.6s ease;
 }
 /*================================*/
 body{
@@ -249,7 +250,6 @@ main{
 .right-shape{
     width: 527px;
     background: hsl(279deg 42% 93% / 34%);
-    height: 800px;
     border-top-right-radius: 20rem;
     border-top-left-radius: 20rem;
     position: absolute;
@@ -257,4 +257,60 @@ main{
     right: 0;
     bottom: 0;
     top: 24%;
+    height: calc(800px - 24%);
+}
+/*=============media queries================*/
+@media screen and (max-width:1080px) {
+    .left{
+        transform: translate(0);
+    }
+    .container{
+        transform: translate(0);
+    }
+    .right-shape{
+        height: 800px;
+        top: 0;
+    }
+    .right-container{
+        text-align: center;
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        padding-bottom: 5rem;
+    }
+    body{
+        height: 936px;
+    }
+    .right-shape{
+        top: 52%;
+        transform: translate(-23%, 50%);
+        height: 268px;
+    }
+    .right-container{
+        width: 90%;
+    }
+}
+@media screen and (max-width:425px) {
+    main{
+        padding-bottom: 4rem;
+    }
+    .left{
+        transform: translateX(-16rem);
+    }
+    .container{
+        transform: translate(16rem , 5rem);
+    }
+}
+@media screen and (max-width:330px) {
+    .container{
+        transform: translate(16rem,3rem);
+    }
+    .right-container h2{
+        font-size: 2rem;
+    }
 }
